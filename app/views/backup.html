@@ -1,0 +1,111 @@
+
+
+    <div id="navbar1Div">
+
+        <ul style="list-style-type:none" id="horizontal-list">
+            <li>
+                <a class="navbar-brand" href="/">
+                    <img src="/assets/save.png" alt="" width="30" height="24">
+                </a>
+            </li>
+            <li id="greetings">TrackOpp</li>
+            <li>
+                <button id="logSignButton" onclick="window.location.href='/addevent'">Add Event</button>
+            </li>
+            <li>
+                <button id="logSignButton">LogIN/SignUp</button>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div style="height: 800px;" class="mr-auto ml-auto text-center bg-success">
+                <form class="mr-auto ml-auto">
+
+                    <div class="mb-3">
+                        <label class="form-label">Category</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1"
+                            aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Event Name</label>
+                        <input type="password" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Application Starts</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1"
+                            aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Application Ends</label>
+                        <input type="password" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Event Starts</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1"
+                            aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Event Ends</label>
+                        <input type="password" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">URL</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1"
+                            aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Contact Number</label>
+                        <input type="password" class="form-control">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <form class="mr-auto ml-auto">
+
+        <div class="mb-3">
+            <h1>Event Details</h1>
+        </div>
+
+        <div class="mb-3">
+            <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Category">
+        </div>
+        <div class="mb-3">
+            <input type="text" class="form-control" aria-describedby="emailHelp"
+                placeholder="Event Name">
+        </div>
+        <div class="mb-3">
+            <input type="text" class="form-control" aria-describedby="emailHelp"
+                placeholder="Organised By">
+        </div>
+        <div class="mb-3">
+            <input  type="text" onfocus="(this.type='date')" onfocusout="(this.type='text')" class="form-control" aria-describedby="emailHelp"
+                placeholder="Application Starts">
+        </div>
+        <div class="mb-3">
+            <input  type="text" onfocus="(this.type='date')" onfocusout="(this.type='text')"  class="form-control" aria-describedby="emailHelp"
+                placeholder="Application Ends">
+        </div>
+        <div class="mb-3">
+            <input  type="text" onfocus="(this.type='date')" onfocusout="(this.type='text')"  class="form-control" aria-describedby="emailHelp"
+                placeholder="Event Starts">
+        </div>
+        <div class="mb-3">
+            <input  type="text" onfocus="(this.type='date')" onfocusout="(this.type='text')"  class="form-control" placeholder="Event Ends">
+        </div>
+        <div class="mb-3">
+            <input type="text" class="form-control" placeholder="URL">
+        </div>
+        <div class="mb-3">
+            <input type="url" class="form-control" placeholder="Eligibility">
+        </div>
+        <button type="submit" class="btn btn-primary" style="margin-bottom: 10px;">Submit</button>
+    </form>

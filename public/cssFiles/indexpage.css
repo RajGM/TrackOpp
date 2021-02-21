@@ -1,0 +1,134 @@
+#featuredTab {
+    display: block;
+    height: auto;
+    text-align: center;
+}
+
+#tileTabDiv {
+    margin-top: 10px;
+    display: block;
+    height: auto;
+}
+
+.indiTile {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    height: auto;
+    width: 250px;
+    border: 1px solid black;
+}
+
+.tileLogoDiv {
+    display: block;
+    height: 30px;
+}
+
+.tileTitleDiv {
+    font-size: 1.2rem;
+    display: block;
+    height: auto;
+}
+
+.tilePeriodDiv {
+    display: block;
+    height: auto;
+}
+
+.indiPeriodDiv1 {
+    height: auto;
+}
+
+.indiPeriodDiv2 {
+    height: auto;
+}
+
+.tileProofDiv {
+    height: auto;
+}
+
+.proofButtonDiv {
+    height: auto;
+}
+
+.tileVoteDiv {
+    height: 35px;
+}
+
+.realButton {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.fakeButton {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: right;
+}
+
+.tileImprovementDiv {
+    display: block;
+    height: auto;
+}
+
+.imrpoveButton {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.tilePostedbyDiv {
+    font-weight: bold;
+    height: 30px;
+}
+
+#navbar2Div {
+    display: block;
+    height: auto;
+}
+
+#serverQueryDiv {
+    display: block;
+    height: auto;
+}
+
+#eventScheduleDiv {
+    display: block;
+    height: auto;
+}
+
+.eventTypeButton{
+    margin-left: 130px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#applicationSelectionDiv {
+    display: block;
+    height: auto;
+}
+
+.applicationPeriodType{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#ulListID{
+    margin-left: 115px;
+}
+
+footer {
+    text-align: center;
+}
+
+#test1 {
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 250px;
+    width: 1400px;
+    height: 100%;
+}
+
+#featureTabHedingDiv {
+    margin-top: 10px;
+}

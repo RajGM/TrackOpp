@@ -1,0 +1,19 @@
+#test1{
+    margin-top: 20px;
+    width: 600px;
+    height: auto;
+    margin-left: 660px;
+}
+
+#addEventDiv{
+    height: auto;
+    background-color: pink;
+}
+
+.middleText{
+    text-align: center;
+}
+
+.to{
+    max-width: 40px;
+}

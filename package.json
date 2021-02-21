@@ -1,0 +1,29 @@
+{
+  "name": "trackopp",
+  "version": "1.0.0",
+  "description": "This is a all in one list of opportunities posted by the users, verified and updated by the users",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RajGM/OppurtunitiesTracker.git"
+  },
+  "author": "RajGM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RajGM/OppurtunitiesTracker/issues"
+  },
+  "homepage": "https://github.com/RajGM/OppurtunitiesTracker#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^5.0.0-beta2",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
